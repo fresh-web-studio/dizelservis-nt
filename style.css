@@ -196,3 +196,18 @@ svg * {
         scroll-behavior: auto !important;
     }
 }
+
+:root {
+    --color-dark-gray: #20292c;
+    --color-gray: #626262;
+    --color-lighte: #FFFFFF;
+    --color-red: #ff0000;
+
+    --font-family-base: 'Exo 2', Arial, Tahoma, sans-serif;
+    --font-family-accent: 'Jura', Arial, Tahoma, sans-serif;
+
+    --container-width: 1220px;
+    --container-padding-x: 15 px;
+
+    --transition-duration: all .3s ease-in-out;
+}
