@@ -38,6 +38,11 @@
   justify-content: space-between;
   padding: var(--container-padding-x);
 }
+
+.header-logo_image {
+  width: 240px;
+  height: 60px;
+}
 .header-menu-list {
   display: flex;
 }
