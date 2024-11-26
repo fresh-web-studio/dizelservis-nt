@@ -9,6 +9,7 @@
       color: var(--color-lighte);
       &::after {
         background-color: var(--color-lighte);
+        box-shadow: 0 -8px var(--color-lighte), 0 8px var(--color-lighte);
       }
     }
 
@@ -20,7 +21,7 @@
       height: 2px;
       background-color: var(--color-dark-gray);
       border-radius: 5px;
-      box-shadow: 0 -8px, 0 8px;
+      box-shadow: 0 -8px var(--color-dark-gray), 0 8px var(--color-dark-gray);
     }
 
   }
