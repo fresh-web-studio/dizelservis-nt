@@ -83,8 +83,31 @@
                 <span class="visually-hidden">Open navigation menu</span>
             </button>
         </div>
-
     </header>
+    <div class="main-slider">
+        <input type="radio" name="control" id="slide1" checked>
+        <input type="radio" name="control" id="slide2">
+        <input type="radio" name="control" id="slide3">
+        <div class="slides">
+            <div class="slide" style="background-image: url('./images/slid1.png');">
+                <div class="content h1">Дизель Сервис - ремонт дизельных автомобилей в Нижнем Тагиле</div>
+            </div>
+            <div class="slide" style="background-image: url('./images/slid2.png');">
+                <div class="content h1">Дизель Сервис - ремонт дизельных автомобилей в Нижнем Тагиле</div>
+            </div>
+            <div class="slide" style="background-image: url('./images/slid3.png');">
+                <div class="content h1">Дизель Сервис - ремонт дизельных автомобилей в Нижнем Тагиле</div>
+            </div>
+        </div>
+        <div class="arrows">
+            <label for="slide3" class="arrow prev slide1">❮</label>
+            <label for="slide2" class="arrow next slide1">❯</label>
+            <label for="slide1" class="arrow prev slide2">❮</label>
+            <label for="slide3" class="arrow next slide2">❯</label>
+            <label for="slide2" class="arrow prev slide3">❮</label>
+            <label for="slide1" class="arrow next slide3">❯</label>
+        </div>
+    </div>
 
 <dialog class="mobile-overlay visible-mobile" id="mobileOverlay">
     <form class="mobile-overlay__close-button-wrapper" method="dialog">
